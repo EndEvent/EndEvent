@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2893CB11C1BD7F2003BC76C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CB01C1BD7F2003BC76C /* main.m */; };
+		F2893CB41C1BD7F2003BC76C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CB31C1BD7F2003BC76C /* AppDelegate.m */; };
+		F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2893CB51C1BD7F2003BC76C /* Images.xcassets */; };
+		F2893CB91C1BD7F2003BC76C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2893CB71C1BD7F2003BC76C /* LaunchScreen.xib */; };
+		F2893CC51C1BD7F2003BC76C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CC41C1BD7F2003BC76C /* ____Tests.m */; };
+		F2893CD01C1BD86A003BC76C /* ZYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CCF1C1BD86A003BC76C /* ZYZViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2893CBF1C1BD7F2003BC76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2893CA31C1BD7F2003BC76C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2893CAA1C1BD7F2003BC76C;
+			remoteInfo = "美食菜谱";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2893CAB1C1BD7F2003BC76C /* 美食菜谱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美食菜谱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2893CAF1C1BD7F2003BC76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2893CB01C1BD7F2003BC76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2893CB21C1BD7F2003BC76C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2893CB31C1BD7F2003BC76C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2893CB51C1BD7F2003BC76C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2893CB81C1BD7F2003BC76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F2893CBE1C1BD7F2003BC76C /* 美食菜谱Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美食菜谱Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2893CC31C1BD7F2003BC76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2893CC41C1BD7F2003BC76C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		F2893CCE1C1BD86A003BC76C /* ZYZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZViewController.h; sourceTree = "<group>"; };
+		F2893CCF1C1BD86A003BC76C /* ZYZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2893CA81C1BD7F2003BC76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2893CBB1C1BD7F2003BC76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2893CA21C1BD7F2003BC76C = {
+			isa = PBXGroup;
+			children = (
+				F2893CAD1C1BD7F2003BC76C /* 美食菜谱 */,
+				F2893CC11C1BD7F2003BC76C /* 美食菜谱Tests */,
+				F2893CAC1C1BD7F2003BC76C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2893CAC1C1BD7F2003BC76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2893CAB1C1BD7F2003BC76C /* 美食菜谱.app */,
+				F2893CBE1C1BD7F2003BC76C /* 美食菜谱Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2893CAD1C1BD7F2003BC76C /* 美食菜谱 */ = {
+			isa = PBXGroup;
+			children = (
+				F2893CB21C1BD7F2003BC76C /* AppDelegate.h */,
+				F2893CB31C1BD7F2003BC76C /* AppDelegate.m */,
+				F2893CCE1C1BD86A003BC76C /* ZYZViewController.h */,
+				F2893CCF1C1BD86A003BC76C /* ZYZViewController.m */,
+				F2893CB51C1BD7F2003BC76C /* Images.xcassets */,
+				F2893CB71C1BD7F2003BC76C /* LaunchScreen.xib */,
+				F2893CAE1C1BD7F2003BC76C /* Supporting Files */,
+			);
+			path = "美食菜谱";
+			sourceTree = "<group>";
+		};
+		F2893CAE1C1BD7F2003BC76C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2893CAF1C1BD7F2003BC76C /* Info.plist */,
+				F2893CB01C1BD7F2003BC76C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2893CC11C1BD7F2003BC76C /* 美食菜谱Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2893CC41C1BD7F2003BC76C /* ____Tests.m */,
+				F2893CC21C1BD7F2003BC76C /* Supporting Files */,
+			);
+			path = "美食菜谱Tests";
+			sourceTree = "<group>";
+		};
+		F2893CC21C1BD7F2003BC76C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2893CC31C1BD7F2003BC76C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2893CAA1C1BD7F2003BC76C /* 美食菜谱 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2893CC81C1BD7F2003BC76C /* Build configuration list for PBXNativeTarget "美食菜谱" */;
+			buildPhases = (
+				F2893CA71C1BD7F2003BC76C /* Sources */,
+				F2893CA81C1BD7F2003BC76C /* Frameworks */,
+				F2893CA91C1BD7F2003BC76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "美食菜谱";
+			productName = "美食菜谱";
+			productReference = F2893CAB1C1BD7F2003BC76C /* 美食菜谱.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2893CBD1C1BD7F2003BC76C /* 美食菜谱Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2893CCB1C1BD7F2003BC76C /* Build configuration list for PBXNativeTarget "美食菜谱Tests" */;
+			buildPhases = (
+				F2893CBA1C1BD7F2003BC76C /* Sources */,
+				F2893CBB1C1BD7F2003BC76C /* Frameworks */,
+				F2893CBC1C1BD7F2003BC76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2893CC01C1BD7F2003BC76C /* PBXTargetDependency */,
+			);
+			name = "美食菜谱Tests";
+			productName = "美食菜谱Tests";
+			productReference = F2893CBE1C1BD7F2003BC76C /* 美食菜谱Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2893CA31C1BD7F2003BC76C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZYZ;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Jarvan;
+				TargetAttributes = {
+					F2893CAA1C1BD7F2003BC76C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F2893CBD1C1BD7F2003BC76C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F2893CAA1C1BD7F2003BC76C;
+					};
+				};
+			};
+			buildConfigurationList = F2893CA61C1BD7F2003BC76C /* Build configuration list for PBXProject "美食菜谱" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2893CA21C1BD7F2003BC76C;
+			productRefGroup = F2893CAC1C1BD7F2003BC76C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2893CAA1C1BD7F2003BC76C /* 美食菜谱 */,
+				F2893CBD1C1BD7F2003BC76C /* 美食菜谱Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2893CA91C1BD7F2003BC76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2893CB91C1BD7F2003BC76C /* LaunchScreen.xib in Resources */,
+				F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2893CBC1C1BD7F2003BC76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2893CA71C1BD7F2003BC76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2893CD01C1BD86A003BC76C /* ZYZViewController.m in Sources */,
+				F2893CB41C1BD7F2003BC76C /* AppDelegate.m in Sources */,
+				F2893CB11C1BD7F2003BC76C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2893CBA1C1BD7F2003BC76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2893CC51C1BD7F2003BC76C /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2893CC01C1BD7F2003BC76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2893CAA1C1BD7F2003BC76C /* 美食菜谱 */;
+			targetProxy = F2893CBF1C1BD7F2003BC76C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2893CB71C1BD7F2003BC76C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2893CB81C1BD7F2003BC76C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2893CC61C1BD7F2003BC76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2893CC71C1BD7F2003BC76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2893CC91C1BD7F2003BC76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "美食菜谱/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2893CCA1C1BD7F2003BC76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "美食菜谱/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2893CCC1C1BD7F2003BC76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "美食菜谱Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美食菜谱.app/美食菜谱";
+			};
+			name = Debug;
+		};
+		F2893CCD1C1BD7F2003BC76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "美食菜谱Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美食菜谱.app/美食菜谱";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2893CA61C1BD7F2003BC76C /* Build configuration list for PBXProject "美食菜谱" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2893CC61C1BD7F2003BC76C /* Debug */,
+				F2893CC71C1BD7F2003BC76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2893CC81C1BD7F2003BC76C /* Build configuration list for PBXNativeTarget "美食菜谱" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2893CC91C1BD7F2003BC76C /* Debug */,
+				F2893CCA1C1BD7F2003BC76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2893CCB1C1BD7F2003BC76C /* Build configuration list for PBXNativeTarget "美食菜谱Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2893CCC1C1BD7F2003BC76C /* Debug */,
+				F2893CCD1C1BD7F2003BC76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2893CA31C1BD7F2003BC76C /* Project object */;
+}
