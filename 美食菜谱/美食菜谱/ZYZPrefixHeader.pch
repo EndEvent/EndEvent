@@ -1,0 +1,33 @@
+//
+//  ZYZPrefixHeader.pch
+//  美食菜谱
+//
+//  Created by Jarvan on 15/12/12.
+//  Copyright (c) 2015年 Jarvan. All rights reserved.
+//
+
+#ifndef _____ZYZPrefixHeader_pch
+#define _____ZYZPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define SCREEN_W self.view.frame.size.width
+#define SCREEN_H self.view.frame.size.height
+
+#import "ZYZKindViewController.h"
+#import "ZYZMyViewController.h"
+#import "ZYZRecommendViewController.h"
+#import "ZYZTopViewController.h"
+
+#import "ZYZMyTabBarController.h"
+
+#import "ZYZRecommendModel.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "ZYZHttpRequestBlock.h"
+
+#endif

@@ -19,6 +19,30 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    // 状态栏的设置
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    // 视图控制器的添加
+    ZYZMyTabBarController *tbc = [[ZYZMyTabBarController alloc] init];
+    tbc.tabBar.barTintColor = [UIColor orangeColor];
+    tbc.tabBar.tintColor = [UIColor whiteColor];
+    
+    ZYZRecommendViewController *vc1 = [tbc addViewControllerWithClassName:@"ZYZRecommendViewController" name:@"食神推荐" image:[UIImage imageNamed:@"item-me"]];
+    vc1.view.backgroundColor = [UIColor whiteColor];
+    
+    ZYZKindViewController *vc2 = [tbc addViewControllerWithClassName:@"ZYZKindViewController" name:@"食神分类" image:[UIImage imageNamed:@"item-cook"]];
+    vc2.view.backgroundColor = [UIColor whiteColor];
+    
+    ZYZTopViewController *vc3 = [tbc addViewControllerWithClassName:@"ZYZTopViewController" name:@"食神推荐" image:[UIImage imageNamed:@"item-topic"]];
+    vc3.view.backgroundColor = [UIColor whiteColor];
+    
+    ZYZMyViewController *vc4 = [tbc addViewControllerWithClassName:@"ZYZMyViewController" name:@"我的" image:[UIImage imageNamed:@"item-yuan"]];
+    vc4.view.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = tbc;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
