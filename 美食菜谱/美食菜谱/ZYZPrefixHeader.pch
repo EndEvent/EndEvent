@@ -24,6 +24,7 @@
 #import "ZYZTopViewController.h"
 
 #import "ZYZMyTabBarController.h"
+#import "ZYZDetailWebViewController.h"
 
 #import "ZYZRecommendModel.h"
 #import "UIImageView+WebCache.h"

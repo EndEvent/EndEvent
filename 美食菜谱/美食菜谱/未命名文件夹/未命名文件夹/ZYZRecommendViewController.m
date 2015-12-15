@@ -42,7 +42,7 @@
     NSString *urlStr = [NSString stringWithFormat:@"http://ibaby.ipadown.com/api/food/food.show.list.php?search=%@&p=%@&pagesize=%@",@"",[NSString stringWithFormat:@"%d",_page],@"12"];
     ZYZHttpRequestBlock *request = [[ZYZHttpRequestBlock alloc] initHttpRequestWithUrlStr:urlStr httpBlcok:^(BOOL isSucceed, ZYZHttpRequestBlock *request) {
         if (isSucceed) {
-            NSLog(@"%@",request.dataDict);
+//            NSLog(@"%@",request.dataDict);
             
             if (weakSelf.page == 1) {
                 weakSelf.dataArray = [NSMutableArray array];
@@ -131,6 +131,19 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    ZYZRecommendModel *model = _dataArray[indexPath.row];
+    
+    ZYZDetailWebViewController *detailVC = [[ZYZDetailWebViewController alloc] init];
+    detailVC.urlid = model.ID;
+    detailVC.shareTitle = model.title;
+    detailVC.contentsString = model.yingyang;
+    detailVC.photoUrlString = model.thumb_2;
+    detailVC.yuanLiao = model.yuanliao;
+    
+    [self.navigationController pushViewController:detailVC animated:YES];
+    
+    // 反选
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end
