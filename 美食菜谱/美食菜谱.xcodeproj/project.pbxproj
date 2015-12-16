@@ -42,6 +42,14 @@
 		F25606961C1C53D0006680FE /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F256068C1C1C53D0006680FE /* UIScrollView+MJExtension.m */; };
 		F25606971C1C53D0006680FE /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F256068E1C1C53D0006680FE /* UIScrollView+MJRefresh.m */; };
 		F25606981C1C53D0006680FE /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F25606901C1C53D0006680FE /* UIView+MJExtension.m */; };
+		F26D602D1C21ADC400F61375 /* ZYZDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D602C1C21ADC400F61375 /* ZYZDBManager.m */; };
+		F26D60391C21ADD200F61375 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D60301C21ADD200F61375 /* FMDatabase.m */; };
+		F26D603A1C21ADD200F61375 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D60321C21ADD200F61375 /* FMDatabaseAdditions.m */; };
+		F26D603B1C21ADD200F61375 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D60341C21ADD200F61375 /* FMDatabasePool.m */; };
+		F26D603C1C21ADD200F61375 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D60361C21ADD200F61375 /* FMDatabaseQueue.m */; };
+		F26D603D1C21ADD200F61375 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D60381C21ADD200F61375 /* FMResultSet.m */; };
+		F26D603F1C21ADDB00F61375 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D603E1C21ADDB00F61375 /* libsqlite3.dylib */; };
+		F26D60421C21AE2100F61375 /* ZYZCollectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D60411C21AE2100F61375 /* ZYZCollectModel.m */; };
 		F2893CB11C1BD7F2003BC76C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CB01C1BD7F2003BC76C /* main.m */; };
 		F2893CB41C1BD7F2003BC76C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CB31C1BD7F2003BC76C /* AppDelegate.m */; };
 		F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2893CB51C1BD7F2003BC76C /* Images.xcassets */; };
@@ -132,6 +140,21 @@
 		F256068F1C1C53D0006680FE /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		F25606901C1C53D0006680FE /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		F25606991C1D0030006680FE /* ZYZLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYZLog.h; sourceTree = "<group>"; };
+		F26D602B1C21ADC400F61375 /* ZYZDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZDBManager.h; sourceTree = "<group>"; };
+		F26D602C1C21ADC400F61375 /* ZYZDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZDBManager.m; sourceTree = "<group>"; };
+		F26D602F1C21ADD200F61375 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F26D60301C21ADD200F61375 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F26D60311C21ADD200F61375 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F26D60321C21ADD200F61375 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F26D60331C21ADD200F61375 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F26D60341C21ADD200F61375 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F26D60351C21ADD200F61375 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F26D60361C21ADD200F61375 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F26D60371C21ADD200F61375 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F26D60381C21ADD200F61375 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F26D603E1C21ADDB00F61375 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F26D60401C21AE2100F61375 /* ZYZCollectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZCollectModel.h; sourceTree = "<group>"; };
+		F26D60411C21AE2100F61375 /* ZYZCollectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZCollectModel.m; sourceTree = "<group>"; };
 		F2893CAB1C1BD7F2003BC76C /* 美食菜谱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美食菜谱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2893CAF1C1BD7F2003BC76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2893CB01C1BD7F2003BC76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -152,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26D603F1C21ADDB00F61375 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +252,8 @@
 				F256052B1C1C49AA006680FE /* ZYZMyTabBarController.m */,
 				F2F92ADA1C20172A00B1A056 /* ZYZDetailWebViewController.h */,
 				F2F92ADB1C20172A00B1A056 /* ZYZDetailWebViewController.m */,
+				F26D60401C21AE2100F61375 /* ZYZCollectModel.h */,
+				F26D60411C21AE2100F61375 /* ZYZCollectModel.m */,
 			);
 			name = "通用";
 			path = "../通用";
@@ -236,6 +262,7 @@
 		F25606421C1C5200006680FE /* 第三方库 */ = {
 			isa = PBXGroup;
 			children = (
+				F26D602E1C21ADD200F61375 /* FMDB */,
 				F25606801C1C53D0006680FE /* MJRefresh */,
 				F25606751C1C5247006680FE /* MyTools */,
 				F25606431C1C520F006680FE /* SDWebImage */,
@@ -291,6 +318,8 @@
 				F256067A1C1C5250006680FE /* NSFileManager+ZYZ.m */,
 				F256067B1C1C5250006680FE /* ZYZHttpRequestBlock.h */,
 				F256067C1C1C5250006680FE /* ZYZHttpRequestBlock.m */,
+				F26D602B1C21ADC400F61375 /* ZYZDBManager.h */,
+				F26D602C1C21ADC400F61375 /* ZYZDBManager.m */,
 			);
 			path = MyTools;
 			sourceTree = "<group>";
@@ -327,9 +356,27 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
+		F26D602E1C21ADD200F61375 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				F26D602F1C21ADD200F61375 /* FMDatabase.h */,
+				F26D60301C21ADD200F61375 /* FMDatabase.m */,
+				F26D60311C21ADD200F61375 /* FMDatabaseAdditions.h */,
+				F26D60321C21ADD200F61375 /* FMDatabaseAdditions.m */,
+				F26D60331C21ADD200F61375 /* FMDatabasePool.h */,
+				F26D60341C21ADD200F61375 /* FMDatabasePool.m */,
+				F26D60351C21ADD200F61375 /* FMDatabaseQueue.h */,
+				F26D60361C21ADD200F61375 /* FMDatabaseQueue.m */,
+				F26D60371C21ADD200F61375 /* FMResultSet.h */,
+				F26D60381C21ADD200F61375 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
 		F2893CA21C1BD7F2003BC76C = {
 			isa = PBXGroup;
 			children = (
+				F26D603E1C21ADDB00F61375 /* libsqlite3.dylib */,
 				F2893CAD1C1BD7F2003BC76C /* 美食菜谱 */,
 				F2893CC11C1BD7F2003BC76C /* 美食菜谱Tests */,
 				F2893CAC1C1BD7F2003BC76C /* Products */,
@@ -490,11 +537,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F25606941C1C53D0006680FE /* MJRefreshFooterView.m in Sources */,
+				F26D60391C21ADD200F61375 /* FMDatabase.m in Sources */,
 				F25606721C1C520F006680FE /* UIImageView+HighlightedWebCache.m in Sources */,
 				F25606691C1C520F006680FE /* SDWebImageDecoder.m in Sources */,
+				F26D602D1C21ADC400F61375 /* ZYZDBManager.m in Sources */,
 				F25606731C1C520F006680FE /* UIImageView+WebCache.m in Sources */,
 				F25605281C1C496A006680FE /* ZYZMyViewController.m in Sources */,
 				F256066B1C1C520F006680FE /* SDWebImageDownloaderOperation.m in Sources */,
+				F26D603A1C21ADD200F61375 /* FMDatabaseAdditions.m in Sources */,
 				F256066C1C1C520F006680FE /* SDWebImageManager.m in Sources */,
 				F25605221C1C490F006680FE /* ZYZKindViewController.m in Sources */,
 				F256052C1C1C49AA006680FE /* ZYZMyTabBarController.m in Sources */,
@@ -515,7 +565,9 @@
 				F256051F1C1C48F3006680FE /* ZYZRecommendViewController.m in Sources */,
 				F25606671C1C520F006680FE /* SDImageCache.m in Sources */,
 				F256067F1C1C5250006680FE /* ZYZHttpRequestBlock.m in Sources */,
+				F26D60421C21AE2100F61375 /* ZYZCollectModel.m in Sources */,
 				F25606921C1C53D0006680FE /* MJRefreshBaseView.m in Sources */,
+				F26D603D1C21ADD200F61375 /* FMResultSet.m in Sources */,
 				F2893CB11C1BD7F2003BC76C /* main.m in Sources */,
 				F25606951C1C53D0006680FE /* MJRefreshHeaderView.m in Sources */,
 				F25606411C1C5159006680FE /* ZYZRecommendModel.m in Sources */,
@@ -523,6 +575,8 @@
 				F256066F1C1C520F006680FE /* UIImage+GIF.m in Sources */,
 				F25606981C1C53D0006680FE /* UIView+MJExtension.m in Sources */,
 				F25606961C1C53D0006680FE /* UIScrollView+MJExtension.m in Sources */,
+				F26D603C1C21ADD200F61375 /* FMDatabaseQueue.m in Sources */,
+				F26D603B1C21ADD200F61375 /* FMDatabasePool.m in Sources */,
 				F25606661C1C520F006680FE /* NSData+ImageContentType.m in Sources */,
 				F25606711C1C520F006680FE /* UIImage+WebP.m in Sources */,
 			);

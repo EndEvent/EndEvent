@@ -7,6 +7,7 @@
 //
 
 #import "ZYZDetailWebViewController.h"
+#import "ZYZCollectModel.h"
 
 @interface ZYZDetailWebViewController () <UIWebViewDelegate>
 
@@ -98,7 +99,41 @@
 
 #pragma mark 收藏
 - (void)collectionButtonClick{
-    NSLog(@"收藏操作");
+//    NSLog(@"收藏操作");
+    
+    ZYZDBManager *dbManager = [ZYZDBManager shareDBManager];
+    
+    // 要收藏的数据
+    ZYZCollectModel *model = [[ZYZCollectModel alloc] init];
+    model.thumb_2 = _photoUrlString;
+    model.title = _shareTitle;
+    model.yingyang = _contentsString;
+    model.ID = _urlid;
+    
+    
+    // 检索数据库，看是否有收藏
+    // 默认是没有收藏
+    BOOL isCollect = NO;
+    NSArray *selectArray = [dbManager selectDbWithTableName:@"ZYZCollectModel"];
+    for (ZYZCollectModel *collectModel in selectArray) {
+        if ([collectModel.ID isEqualToString:model.ID]) {
+            // 如果已经收藏，弹出已收藏提示
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"该美食您已收藏过了，无需再次收藏哦" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定", nil];
+            [alert show];
+            
+            // 已经收藏
+            isCollect = YES;
+        }
+    }
+    
+    // 进行收藏操作
+    if (!isCollect) {
+        [dbManager insertDbWithModel:model];
+        
+        // 弹出收藏成功提示
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"美食已收藏成功，请在我的收藏查看哦" delegate:self cancelButtonTitle:@"嗯嗯，知道了！" otherButtonTitles:nil];
+        [alert show];
+    }
 }
 
 #pragma mark 分享

@@ -22,6 +22,7 @@
 #import "ZYZMyViewController.h"
 #import "ZYZRecommendViewController.h"
 #import "ZYZTopViewController.h"
+#import "ZYZDBManager.h"
 
 #import "ZYZMyTabBarController.h"
 #import "ZYZDetailWebViewController.h"
