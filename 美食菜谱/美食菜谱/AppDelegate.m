@@ -31,10 +31,10 @@
     ZYZRecommendViewController *vc1 = [tbc addViewControllerWithClassName:@"ZYZRecommendViewController" name:@"食神推荐" image:[UIImage imageNamed:@"item-me"]];
     vc1.view.backgroundColor = [UIColor whiteColor];
     
-    ZYZKindViewController *vc2 = [tbc addViewControllerWithClassName:@"ZYZKindViewController" name:@"食神分类" image:[UIImage imageNamed:@"item-cook"]];
+    ZYZKindViewController *vc2 = [tbc addViewControllerWithClassName:@"ZYZKindViewController" name:@"美食分类" image:[UIImage imageNamed:@"item-cook"]];
     vc2.view.backgroundColor = [UIColor whiteColor];
     
-    ZYZTopViewController *vc3 = [tbc addViewControllerWithClassName:@"ZYZTopViewController" name:@"食神推荐" image:[UIImage imageNamed:@"item-topic"]];
+    ZYZTopViewController *vc3 = [tbc addViewControllerWithClassName:@"ZYZTopViewController" name:@"美食推荐" image:[UIImage imageNamed:@"item-topic"]];
     vc3.view.backgroundColor = [UIColor whiteColor];
     
     ZYZMyViewController *vc4 = [tbc addViewControllerWithClassName:@"ZYZMyViewController" name:@"我的" image:[UIImage imageNamed:@"item-yuan"]];

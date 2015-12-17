@@ -48,11 +48,6 @@
     [_myWebView reload];
 }
 
-#pragma mark 网页加载完成后移除HUD
-- (void)webViewDidFinishLoad:(UIWebView *)webView{
-    
-}
-
 #pragma mark 网页加载失败时调用,这里点击那个网页收藏按钮也会调用来这里，所以做了一个提示框
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
     
@@ -118,7 +113,7 @@
     for (ZYZCollectModel *collectModel in selectArray) {
         if ([collectModel.ID isEqualToString:model.ID]) {
             // 如果已经收藏，弹出已收藏提示
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"该美食您已收藏过了，无需再次收藏哦" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定", nil];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"该美食您已收藏过了,无需再次收藏哦!" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定", nil];
             [alert show];
             
             // 已经收藏
@@ -131,7 +126,7 @@
         [dbManager insertDbWithModel:model];
         
         // 弹出收藏成功提示
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"美食已收藏成功，请在我的收藏查看哦" delegate:self cancelButtonTitle:@"嗯嗯，知道了！" otherButtonTitles:nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"美食已收藏成功，请在我的收藏查看哦" delegate:self cancelButtonTitle:@"嗯嗯,知道了!" otherButtonTitles:nil];
         [alert show];
     }
 }

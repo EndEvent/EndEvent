@@ -1,5 +1,5 @@
 //
-//  ZYZDBManager.h
+//  ZYZDBManager.m
 //  FMDB封装
 //
 //  Created by Jarvan on 15/12/15.
@@ -17,20 +17,16 @@
 
 @interface ZYZDBManager : NSObject
 
-/** 类方法*/
+/** 类方法,快速实例化对象*/
 + (instancetype)shareDBManager;
 
-// 增
+/** 增*/
 - (void)insertDbWithModel:(id)model;
-// 删除
+/** 删*/
 - (void)deleteDbWithModel:(id)model;
-// 更新
-- (void)updateDbWithModel:(id)model;
-// 查询
+/** 改*/
+- (void)updateDbWithNewModel:(id)newModel oldModel:(id)oldModel;
+/** 查*/
 - (NSArray *)selectDbWithTableName:(NSString *)tableName;
-
-
-// 测试
-- (void)createTableWithName:(NSString *)tableName;
 
 @end

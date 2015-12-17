@@ -55,6 +55,10 @@
 		F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2893CB51C1BD7F2003BC76C /* Images.xcassets */; };
 		F2893CB91C1BD7F2003BC76C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2893CB71C1BD7F2003BC76C /* LaunchScreen.xib */; };
 		F2893CC51C1BD7F2003BC76C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CC41C1BD7F2003BC76C /* ____Tests.m */; };
+		F2F6B3871C22C187006B6297 /* ZYZKindListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F6B3861C22C187006B6297 /* ZYZKindListViewController.m */; };
+		F2F6B38A1C22C30B006B6297 /* ZYZKindListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F6B3891C22C30B006B6297 /* ZYZKindListCell.m */; };
+		F2F6B38C1C22C318006B6297 /* ZYZKindListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F6B38B1C22C318006B6297 /* ZYZKindListCell.xib */; };
+		F2F6B38F1C22C36D006B6297 /* ZYZKindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F6B38E1C22C36D006B6297 /* ZYZKindModel.m */; };
 		F2F92ADC1C20172A00B1A056 /* ZYZDetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F92ADB1C20172A00B1A056 /* ZYZDetailWebViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -166,6 +170,13 @@
 		F2893CC31C1BD7F2003BC76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2893CC41C1BD7F2003BC76C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		F2893CD11C1BDE76003BC76C /* ZYZPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZPrefixHeader.pch; sourceTree = "<group>"; };
+		F2F6B3851C22C187006B6297 /* ZYZKindListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZKindListViewController.h; sourceTree = "<group>"; };
+		F2F6B3861C22C187006B6297 /* ZYZKindListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZKindListViewController.m; sourceTree = "<group>"; };
+		F2F6B3881C22C30B006B6297 /* ZYZKindListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZKindListCell.h; sourceTree = "<group>"; };
+		F2F6B3891C22C30B006B6297 /* ZYZKindListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZKindListCell.m; sourceTree = "<group>"; };
+		F2F6B38B1C22C318006B6297 /* ZYZKindListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYZKindListCell.xib; sourceTree = "<group>"; };
+		F2F6B38D1C22C36D006B6297 /* ZYZKindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZKindModel.h; sourceTree = "<group>"; };
+		F2F6B38E1C22C36D006B6297 /* ZYZKindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZKindModel.m; sourceTree = "<group>"; };
 		F2F92ADA1C20172A00B1A056 /* ZYZDetailWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZDetailWebViewController.h; sourceTree = "<group>"; };
 		F2F92ADB1C20172A00B1A056 /* ZYZDetailWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZDetailWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -222,6 +233,13 @@
 			children = (
 				F25605201C1C490F006680FE /* ZYZKindViewController.h */,
 				F25605211C1C490F006680FE /* ZYZKindViewController.m */,
+				F2F6B3851C22C187006B6297 /* ZYZKindListViewController.h */,
+				F2F6B3861C22C187006B6297 /* ZYZKindListViewController.m */,
+				F2F6B38D1C22C36D006B6297 /* ZYZKindModel.h */,
+				F2F6B38E1C22C36D006B6297 /* ZYZKindModel.m */,
+				F2F6B3881C22C30B006B6297 /* ZYZKindListCell.h */,
+				F2F6B3891C22C30B006B6297 /* ZYZKindListCell.m */,
+				F2F6B38B1C22C318006B6297 /* ZYZKindListCell.xib */,
 			);
 			name = "美食分类2";
 			path = "美食分类";
@@ -519,6 +537,7 @@
 				F2893CB91C1BD7F2003BC76C /* LaunchScreen.xib in Resources */,
 				F256063B1C1C503E006680FE /* ZYZRecommendCell.xib in Resources */,
 				F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */,
+				F2F6B38C1C22C318006B6297 /* ZYZKindListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +559,7 @@
 				F26D60391C21ADD200F61375 /* FMDatabase.m in Sources */,
 				F25606721C1C520F006680FE /* UIImageView+HighlightedWebCache.m in Sources */,
 				F25606691C1C520F006680FE /* SDWebImageDecoder.m in Sources */,
+				F2F6B3871C22C187006B6297 /* ZYZKindListViewController.m in Sources */,
 				F26D602D1C21ADC400F61375 /* ZYZDBManager.m in Sources */,
 				F25606731C1C520F006680FE /* UIImageView+WebCache.m in Sources */,
 				F25605281C1C496A006680FE /* ZYZMyViewController.m in Sources */,
@@ -548,6 +568,7 @@
 				F256066C1C1C520F006680FE /* SDWebImageManager.m in Sources */,
 				F25605221C1C490F006680FE /* ZYZKindViewController.m in Sources */,
 				F256052C1C1C49AA006680FE /* ZYZMyTabBarController.m in Sources */,
+				F2F6B38F1C22C36D006B6297 /* ZYZKindModel.m in Sources */,
 				F256067D1C1C5250006680FE /* MyMD5.m in Sources */,
 				F25606971C1C53D0006680FE /* UIScrollView+MJRefresh.m in Sources */,
 				F256066A1C1C520F006680FE /* SDWebImageDownloader.m in Sources */,
@@ -567,6 +588,7 @@
 				F256067F1C1C5250006680FE /* ZYZHttpRequestBlock.m in Sources */,
 				F26D60421C21AE2100F61375 /* ZYZCollectModel.m in Sources */,
 				F25606921C1C53D0006680FE /* MJRefreshBaseView.m in Sources */,
+				F2F6B38A1C22C30B006B6297 /* ZYZKindListCell.m in Sources */,
 				F26D603D1C21ADD200F61375 /* FMResultSet.m in Sources */,
 				F2893CB11C1BD7F2003BC76C /* main.m in Sources */,
 				F25606951C1C53D0006680FE /* MJRefreshHeaderView.m in Sources */,
