@@ -34,10 +34,7 @@
 #pragma mark - 获取数据
 - (void)loadData{
     __weak typeof(self) weakSelf = self;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-         _keyWord = [_keyWord stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    });
+    _keyWord = [_keyWord stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSString *urlStr = [NSString stringWithFormat:@"http://ibaby.ipadown.com/api/food/food.show.list.php?category=%@&&p=%@&pagesize=%@",_keyWord,[NSString stringWithFormat:@"%ld",(long)_page],@"12"];
     
     ZYZHttpRequestBlock *request = [[ZYZHttpRequestBlock alloc] initHttpRequestWithUrlStr:urlStr httpBlcok:^(BOOL isSucceed, ZYZHttpRequestBlock *request) {
@@ -113,6 +110,22 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 110;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    ZYZKindModel *model = _dataArray[indexPath.row];
+    
+    ZYZDetailWebViewController *detailVC = [[ZYZDetailWebViewController alloc] init];
+    detailVC.urlid = model.ID;
+    detailVC.shareTitle = model.title;
+    detailVC.contentsString = model.yingyang;
+    detailVC.photoUrlString = model.thumb_2;
+    detailVC.yuanLiao = model.yuanliao;
+    
+    [self.navigationController pushViewController:detailVC animated:YES];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 #pragma mark - 表格视图
