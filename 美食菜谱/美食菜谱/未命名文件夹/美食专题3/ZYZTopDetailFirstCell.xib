@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZYZTopDetailFirstCell" rowHeight="267" id="y8f-jy-WHC" customClass="ZYZTopDetailFirstCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="265"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y8f-jy-WHC" id="JjB-OW-Uci">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LVu-WY-F6c">
+                        <rect key="frame" x="5" y="5" width="310" height="169"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="169" id="mUR-iA-vp5"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Htf-Ng-sqK">
+                        <rect key="frame" x="10" y="10" width="300" height="160"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7cD-Wr-8mK">
+                        <rect key="frame" x="10" y="129" width="300" height="35"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGu-rn-vvW">
+                        <rect key="frame" x="23" y="141" width="213" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wck-mY-hT6">
+                        <rect key="frame" x="5" y="179" width="310" height="86"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LVu-WY-F6c" firstAttribute="top" secondItem="JjB-OW-Uci" secondAttribute="top" constant="5" id="3s3-jr-IGc"/>
+                    <constraint firstItem="Wck-mY-hT6" firstAttribute="leading" secondItem="JjB-OW-Uci" secondAttribute="leading" constant="5" id="4f1-fo-6PP"/>
+                    <constraint firstItem="Wck-mY-hT6" firstAttribute="top" secondItem="Htf-Ng-sqK" secondAttribute="bottom" constant="9" id="ADK-AM-jyR"/>
+                    <constraint firstAttribute="bottom" secondItem="Wck-mY-hT6" secondAttribute="bottom" constant="-1" id="AO7-vd-62l"/>
+                    <constraint firstItem="7cD-Wr-8mK" firstAttribute="top" secondItem="JjB-OW-Uci" secondAttribute="top" constant="129" id="EQu-6M-Hhm"/>
+                    <constraint firstItem="Wck-mY-hT6" firstAttribute="top" secondItem="7cD-Wr-8mK" secondAttribute="bottom" constant="15" id="Fcy-Cd-lKX"/>
+                    <constraint firstAttribute="trailing" secondItem="Wck-mY-hT6" secondAttribute="trailing" constant="5" id="GgB-VO-t0P"/>
+                    <constraint firstAttribute="trailing" secondItem="LVu-WY-F6c" secondAttribute="trailing" constant="5" id="HG2-JR-AUV"/>
+                    <constraint firstItem="Htf-Ng-sqK" firstAttribute="top" secondItem="JjB-OW-Uci" secondAttribute="top" constant="10" id="JwO-tz-iao"/>
+                    <constraint firstItem="7cD-Wr-8mK" firstAttribute="leading" secondItem="JjB-OW-Uci" secondAttribute="leading" constant="10" id="NEQ-Ri-ah0"/>
+                    <constraint firstItem="Htf-Ng-sqK" firstAttribute="leading" secondItem="JjB-OW-Uci" secondAttribute="leading" constant="10" id="Rt6-SD-98g"/>
+                    <constraint firstItem="AGu-rn-vvW" firstAttribute="top" secondItem="JjB-OW-Uci" secondAttribute="top" constant="141" id="WLa-hj-c6h"/>
+                    <constraint firstItem="Wck-mY-hT6" firstAttribute="top" secondItem="LVu-WY-F6c" secondAttribute="bottom" constant="5" id="YGu-Q8-1wN"/>
+                    <constraint firstAttribute="trailing" secondItem="Htf-Ng-sqK" secondAttribute="trailing" constant="10" id="fwd-xn-IkZ"/>
+                    <constraint firstItem="AGu-rn-vvW" firstAttribute="leading" secondItem="JjB-OW-Uci" secondAttribute="leading" constant="23" id="gBe-AS-Y0P"/>
+                    <constraint firstAttribute="trailing" secondItem="AGu-rn-vvW" secondAttribute="trailing" constant="84" id="gcF-wS-qTT"/>
+                    <constraint firstAttribute="trailing" secondItem="7cD-Wr-8mK" secondAttribute="trailing" constant="10" id="l7h-ri-MKb"/>
+                    <constraint firstItem="LVu-WY-F6c" firstAttribute="leading" secondItem="JjB-OW-Uci" secondAttribute="leading" constant="5" id="yF3-2t-G20"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImageView" destination="LVu-WY-F6c" id="iJN-rA-Y3r"/>
+                <outlet property="caipinImageView" destination="Htf-Ng-sqK" id="8gK-ON-0eX"/>
+                <outlet property="myTextView" destination="Wck-mY-hT6" id="sMJ-SL-uxr"/>
+                <outlet property="titleLabel" destination="AGu-rn-vvW" id="aB5-z2-Ed6"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="408.5"/>
+        </tableViewCell>
+    </objects>
+</document>

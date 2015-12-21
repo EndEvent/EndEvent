@@ -103,6 +103,8 @@
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_W, SCREEN_H) style:UITableViewStylePlain];
     _tableView.dataSource = self;
     _tableView.delegate = self;
+    _tableView.backgroundColor = [UIColor colorWithRed:210/256.0 green:238/256.0 blue:119/256.0 alpha:1];
+    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:_tableView];
 }
 
@@ -115,6 +117,7 @@
         cell = [[[NSBundle mainBundle] loadNibNamed:@"ZYZRecommendCell" owner:self options:nil] firstObject];
     }
     
+    cell.backgroundColor = [UIColor colorWithRed:210/256.0 green:238/256.0 blue:119/256.0 alpha:1];
     [cell setCellWithModel:_dataArray[indexPath.row]];
     
     return cell;

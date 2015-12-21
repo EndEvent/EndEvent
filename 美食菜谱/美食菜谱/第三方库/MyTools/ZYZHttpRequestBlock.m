@@ -25,11 +25,15 @@
 
 @implementation ZYZHttpRequestBlock
 
++ (instancetype)httpRequestWithUlrStr:(NSString *)urlStr httpBlcok:(HttpBlock)httpBlock{
+    return [[self alloc] initHttpRequestWithUrlStr:urlStr httpBlcok:httpBlock];
+}
+
 - (instancetype)initHttpRequestWithUrlStr:(NSString *)urlStr httpBlcok:(HttpBlock)httpBlock{
     if ([super init]) {
         // 要将代码块保存起来，之后要进行代码块的调用
         self.myBlcok = httpBlock;
-        self.urlStr = urlStr;
+        self.urlStr = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         
         // 补充，缓存操作
         /**
@@ -84,12 +88,12 @@
     _downloadData = [NSMutableData dataWithCapacity:0];
     
     // 如果_downloadData已经初始化了，但原来有旧数据，如何清空？
-//    [_downloadData setLength:0];
+    //    [_downloadData setLength:0];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection{
     // 数据解析
-//    [self jsonValue];
+    //    [self jsonValue];
     
     // 数据保存，数据解析
     NSString *path = [NSString stringWithFormat:@"%@/Documents/%@",NSHomeDirectory(),[MyMD5 md5:_urlStr]];

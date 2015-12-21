@@ -19,8 +19,11 @@ typedef void(^HttpBlock)(BOOL isSucceed, ZYZHttpRequestBlock *request);
 
 @interface ZYZHttpRequestBlock : NSObject <NSURLConnectionDataDelegate,NSURLConnectionDelegate>
 
+/** 类方法，实例化对象，并将具体操作封装到代码块*/
++ (instancetype)httpRequestWithUlrStr:(NSString *)urlStr httpBlcok:(HttpBlock)httpBlock;
+
 /** 对象方法，实例化对象，并将具体操作封装到代码块中*/
-- (instancetype)initHttpRequestWithUrlStr:(NSString *)urlStr  httpBlcok:(HttpBlock)httpBlock;
+- (instancetype)initHttpRequestWithUrlStr:(NSString *)urlStr httpBlcok:(HttpBlock)httpBlock;
 
 /** 代码块，具体操作*/
 @property (nonatomic,copy) HttpBlock myBlcok;

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24D6A491C27FAE10004089E /* ZYZTopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24D6A481C27FAE10004089E /* ZYZTopTableViewCell.m */; };
+		F24D6A4B1C27FAEB0004089E /* ZYZTopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24D6A4A1C27FAEB0004089E /* ZYZTopTableViewCell.xib */; };
+		F24D6A4E1C27FBBD0004089E /* ZYZTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24D6A4D1C27FBBD0004089E /* ZYZTopModel.m */; };
+		F24D6A511C2800AD0004089E /* ZYZTopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24D6A501C2800AD0004089E /* ZYZTopDetailViewController.m */; };
+		F24D6A541C2803DE0004089E /* ZYZTopDetailFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24D6A531C2803DE0004089E /* ZYZTopDetailFirstCell.m */; };
+		F24D6A571C2803EE0004089E /* ZYZTopDetailSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24D6A561C2803EE0004089E /* ZYZTopDetailSecondCell.m */; };
+		F24D6A591C2806CF0004089E /* ZYZTopDetailFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24D6A581C2806CF0004089E /* ZYZTopDetailFirstCell.xib */; };
+		F24D6A5B1C2806DE0004089E /* ZYZTopDetailSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24D6A5A1C2806DE0004089E /* ZYZTopDetailSecondCell.xib */; };
+		F24D6A5E1C28086C0004089E /* ZYZTopDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24D6A5D1C28086C0004089E /* ZYZTopDetailModel.m */; };
 		F256051F1C1C48F3006680FE /* ZYZRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F256051E1C1C48F3006680FE /* ZYZRecommendViewController.m */; };
 		F25605221C1C490F006680FE /* ZYZKindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25605211C1C490F006680FE /* ZYZKindViewController.m */; };
 		F25605251C1C4960006680FE /* ZYZTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25605241C1C4960006680FE /* ZYZTopViewController.m */; };
@@ -73,6 +82,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F24D6A471C27FAE00004089E /* ZYZTopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZTopTableViewCell.h; sourceTree = "<group>"; };
+		F24D6A481C27FAE10004089E /* ZYZTopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZTopTableViewCell.m; sourceTree = "<group>"; };
+		F24D6A4A1C27FAEB0004089E /* ZYZTopTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYZTopTableViewCell.xib; sourceTree = "<group>"; };
+		F24D6A4C1C27FBBD0004089E /* ZYZTopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZTopModel.h; sourceTree = "<group>"; };
+		F24D6A4D1C27FBBD0004089E /* ZYZTopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZTopModel.m; sourceTree = "<group>"; };
+		F24D6A4F1C2800AD0004089E /* ZYZTopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZTopDetailViewController.h; sourceTree = "<group>"; };
+		F24D6A501C2800AD0004089E /* ZYZTopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZTopDetailViewController.m; sourceTree = "<group>"; };
+		F24D6A521C2803DE0004089E /* ZYZTopDetailFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZTopDetailFirstCell.h; sourceTree = "<group>"; };
+		F24D6A531C2803DE0004089E /* ZYZTopDetailFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZTopDetailFirstCell.m; sourceTree = "<group>"; };
+		F24D6A551C2803EE0004089E /* ZYZTopDetailSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZTopDetailSecondCell.h; sourceTree = "<group>"; };
+		F24D6A561C2803EE0004089E /* ZYZTopDetailSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZTopDetailSecondCell.m; sourceTree = "<group>"; };
+		F24D6A581C2806CF0004089E /* ZYZTopDetailFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYZTopDetailFirstCell.xib; sourceTree = "<group>"; };
+		F24D6A5A1C2806DE0004089E /* ZYZTopDetailSecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYZTopDetailSecondCell.xib; sourceTree = "<group>"; };
+		F24D6A5C1C28086C0004089E /* ZYZTopDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZTopDetailModel.h; sourceTree = "<group>"; };
+		F24D6A5D1C28086C0004089E /* ZYZTopDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZTopDetailModel.m; sourceTree = "<group>"; };
 		F256051D1C1C48F3006680FE /* ZYZRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZRecommendViewController.h; sourceTree = "<group>"; };
 		F256051E1C1C48F3006680FE /* ZYZRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZRecommendViewController.m; sourceTree = "<group>"; };
 		F25605201C1C490F006680FE /* ZYZKindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZKindViewController.h; sourceTree = "<group>"; };
@@ -250,6 +274,21 @@
 			children = (
 				F25605231C1C4960006680FE /* ZYZTopViewController.h */,
 				F25605241C1C4960006680FE /* ZYZTopViewController.m */,
+				F24D6A4C1C27FBBD0004089E /* ZYZTopModel.h */,
+				F24D6A4D1C27FBBD0004089E /* ZYZTopModel.m */,
+				F24D6A471C27FAE00004089E /* ZYZTopTableViewCell.h */,
+				F24D6A481C27FAE10004089E /* ZYZTopTableViewCell.m */,
+				F24D6A4A1C27FAEB0004089E /* ZYZTopTableViewCell.xib */,
+				F24D6A4F1C2800AD0004089E /* ZYZTopDetailViewController.h */,
+				F24D6A501C2800AD0004089E /* ZYZTopDetailViewController.m */,
+				F24D6A5C1C28086C0004089E /* ZYZTopDetailModel.h */,
+				F24D6A5D1C28086C0004089E /* ZYZTopDetailModel.m */,
+				F24D6A521C2803DE0004089E /* ZYZTopDetailFirstCell.h */,
+				F24D6A531C2803DE0004089E /* ZYZTopDetailFirstCell.m */,
+				F24D6A581C2806CF0004089E /* ZYZTopDetailFirstCell.xib */,
+				F24D6A551C2803EE0004089E /* ZYZTopDetailSecondCell.h */,
+				F24D6A561C2803EE0004089E /* ZYZTopDetailSecondCell.m */,
+				F24D6A5A1C2806DE0004089E /* ZYZTopDetailSecondCell.xib */,
 			);
 			path = "美食专题3";
 			sourceTree = "<group>";
@@ -535,9 +574,12 @@
 			files = (
 				F25606911C1C53D0006680FE /* MJRefresh.bundle in Resources */,
 				F2893CB91C1BD7F2003BC76C /* LaunchScreen.xib in Resources */,
+				F24D6A5B1C2806DE0004089E /* ZYZTopDetailSecondCell.xib in Resources */,
 				F256063B1C1C503E006680FE /* ZYZRecommendCell.xib in Resources */,
 				F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */,
 				F2F6B38C1C22C318006B6297 /* ZYZKindListCell.xib in Resources */,
+				F24D6A591C2806CF0004089E /* ZYZTopDetailFirstCell.xib in Resources */,
+				F24D6A4B1C27FAEB0004089E /* ZYZTopTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,23 +604,29 @@
 				F2F6B3871C22C187006B6297 /* ZYZKindListViewController.m in Sources */,
 				F26D602D1C21ADC400F61375 /* ZYZDBManager.m in Sources */,
 				F25606731C1C520F006680FE /* UIImageView+WebCache.m in Sources */,
+				F24D6A491C27FAE10004089E /* ZYZTopTableViewCell.m in Sources */,
+				F24D6A511C2800AD0004089E /* ZYZTopDetailViewController.m in Sources */,
 				F25605281C1C496A006680FE /* ZYZMyViewController.m in Sources */,
 				F256066B1C1C520F006680FE /* SDWebImageDownloaderOperation.m in Sources */,
+				F24D6A541C2803DE0004089E /* ZYZTopDetailFirstCell.m in Sources */,
 				F26D603A1C21ADD200F61375 /* FMDatabaseAdditions.m in Sources */,
 				F256066C1C1C520F006680FE /* SDWebImageManager.m in Sources */,
 				F25605221C1C490F006680FE /* ZYZKindViewController.m in Sources */,
 				F256052C1C1C49AA006680FE /* ZYZMyTabBarController.m in Sources */,
 				F2F6B38F1C22C36D006B6297 /* ZYZKindModel.m in Sources */,
 				F256067D1C1C5250006680FE /* MyMD5.m in Sources */,
+				F24D6A5E1C28086C0004089E /* ZYZTopDetailModel.m in Sources */,
 				F25606971C1C53D0006680FE /* UIScrollView+MJRefresh.m in Sources */,
 				F256066A1C1C520F006680FE /* SDWebImageDownloader.m in Sources */,
 				F2F92ADC1C20172A00B1A056 /* ZYZDetailWebViewController.m in Sources */,
 				F25606651C1C520F006680FE /* MKAnnotationView+WebCache.m in Sources */,
 				F25606681C1C520F006680FE /* SDWebImageCompat.m in Sources */,
 				F256066D1C1C520F006680FE /* SDWebImagePrefetcher.m in Sources */,
+				F24D6A571C2803EE0004089E /* ZYZTopDetailSecondCell.m in Sources */,
 				F25606741C1C520F006680FE /* UIView+WebCacheOperation.m in Sources */,
 				F25606931C1C53D0006680FE /* MJRefreshConst.m in Sources */,
 				F25606701C1C520F006680FE /* UIImage+MultiFormat.m in Sources */,
+				F24D6A4E1C27FBBD0004089E /* ZYZTopModel.m in Sources */,
 				F2893CB41C1BD7F2003BC76C /* AppDelegate.m in Sources */,
 				F256063E1C1C5050006680FE /* ZYZRecommendCell.m in Sources */,
 				F256066E1C1C520F006680FE /* UIButton+WebCache.m in Sources */,

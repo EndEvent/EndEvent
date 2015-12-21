@@ -21,6 +21,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.view.backgroundColor = [UIColor colorWithRed:210/256.0 green:238/256.0 blue:119/256.0 alpha:1];
+    
     [self setNac];
     
     [self createTableView];
@@ -98,7 +100,7 @@
         cell = [[[NSBundle mainBundle] loadNibNamed:@"ZYZKindListCell" owner:self options:nil] firstObject];
     }
     
-
+    cell.backgroundColor = [UIColor colorWithRed:210/256.0 green:238/256.0 blue:119/256.0 alpha:1];
     [cell setCellWithModel:_dataArray[indexPath.row]];
     
     return cell;
@@ -133,6 +135,8 @@
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _tableView.dataSource = self;
     _tableView.delegate = self;
+    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _tableView.backgroundColor = [UIColor colorWithRed:210/256.0 green:238/256.0 blue:119/256.0 alpha:1];
     [self.view addSubview:_tableView];
 }
 
