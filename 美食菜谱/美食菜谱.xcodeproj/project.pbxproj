@@ -34,6 +34,8 @@
 		F22C444B1C2CD9C10095BF72 /* ZYZRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22C44451C2CD9C10095BF72 /* ZYZRecommendCell.xib */; };
 		F22C444C1C2CD9C10095BF72 /* ZYZRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C44471C2CD9C10095BF72 /* ZYZRecommendModel.m */; };
 		F22C444D1C2CD9C10095BF72 /* ZYZRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C44491C2CD9C10095BF72 /* ZYZRecommendViewController.m */; };
+		F22D1C741D7D878B0039DAF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22D1C731D7D878B0039DAF8 /* Images.xcassets */; };
+		F22D1C761D7D87E50039DAF8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F22D1C751D7D87E50039DAF8 /* libsqlite3.tbd */; };
 		F25606651C1C520F006680FE /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F25606451C1C520F006680FE /* MKAnnotationView+WebCache.m */; };
 		F25606661C1C520F006680FE /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F25606471C1C520F006680FE /* NSData+ImageContentType.m */; };
 		F25606671C1C520F006680FE /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F25606491C1C520F006680FE /* SDImageCache.m */; };
@@ -70,7 +72,6 @@
 		F26D603F1C21ADDB00F61375 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D603E1C21ADDB00F61375 /* libsqlite3.dylib */; };
 		F2893CB11C1BD7F2003BC76C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CB01C1BD7F2003BC76C /* main.m */; };
 		F2893CB41C1BD7F2003BC76C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CB31C1BD7F2003BC76C /* AppDelegate.m */; };
-		F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2893CB51C1BD7F2003BC76C /* Images.xcassets */; };
 		F2893CB91C1BD7F2003BC76C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2893CB71C1BD7F2003BC76C /* LaunchScreen.xib */; };
 		F2893CC51C1BD7F2003BC76C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2893CC41C1BD7F2003BC76C /* ____Tests.m */; };
 /* End PBXBuildFile section */
@@ -133,6 +134,8 @@
 		F22C44471C2CD9C10095BF72 /* ZYZRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZRecommendModel.m; sourceTree = "<group>"; };
 		F22C44481C2CD9C10095BF72 /* ZYZRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZRecommendViewController.h; sourceTree = "<group>"; };
 		F22C44491C2CD9C10095BF72 /* ZYZRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZRecommendViewController.m; sourceTree = "<group>"; };
+		F22D1C731D7D878B0039DAF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F22D1C751D7D87E50039DAF8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F25606441C1C520F006680FE /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		F25606451C1C520F006680FE /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		F25606461C1C520F006680FE /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -207,7 +210,6 @@
 		F2893CB01C1BD7F2003BC76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2893CB21C1BD7F2003BC76C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2893CB31C1BD7F2003BC76C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2893CB51C1BD7F2003BC76C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2893CB81C1BD7F2003BC76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2893CBE1C1BD7F2003BC76C /* 美食菜谱Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美食菜谱Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2893CC31C1BD7F2003BC76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22D1C761D7D87E50039DAF8 /* libsqlite3.tbd in Frameworks */,
 				F26D603F1C21ADDB00F61375 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +455,7 @@
 		F2893CA21C1BD7F2003BC76C = {
 			isa = PBXGroup;
 			children = (
+				F22D1C751D7D87E50039DAF8 /* libsqlite3.tbd */,
 				F26D603E1C21ADDB00F61375 /* libsqlite3.dylib */,
 				F2893CAD1C1BD7F2003BC76C /* 美食菜谱 */,
 				F2893CC11C1BD7F2003BC76C /* 美食菜谱Tests */,
@@ -476,8 +480,8 @@
 				F25606421C1C5200006680FE /* 第三方库 */,
 				F2893CB21C1BD7F2003BC76C /* AppDelegate.h */,
 				F2893CB31C1BD7F2003BC76C /* AppDelegate.m */,
+				F22D1C731D7D878B0039DAF8 /* Images.xcassets */,
 				F25606991C1D0030006680FE /* ZYZLog.h */,
-				F2893CB51C1BD7F2003BC76C /* Images.xcassets */,
 				F2893CB71C1BD7F2003BC76C /* LaunchScreen.xib */,
 				F2893CAE1C1BD7F2003BC76C /* Supporting Files */,
 			);
@@ -561,9 +565,11 @@
 				TargetAttributes = {
 					F2893CAA1C1BD7F2003BC76C = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = C6Z4F7FQ7V;
 					};
 					F2893CBD1C1BD7F2003BC76C = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = NMV968UAH7;
 						TestTargetID = F2893CAA1C1BD7F2003BC76C;
 					};
 				};
@@ -593,6 +599,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F22C43FF1C2CD6280095BF72 /* Icon.png in Resources */,
+				F22D1C741D7D878B0039DAF8 /* Images.xcassets in Resources */,
 				F25606911C1C53D0006680FE /* MJRefresh.bundle in Resources */,
 				F22C444B1C2CD9C10095BF72 /* ZYZRecommendCell.xib in Resources */,
 				F22C442D1C2CD97D0095BF72 /* ZYZTopDetailSecondCell.xib in Resources */,
@@ -600,7 +607,6 @@
 				F2893CB91C1BD7F2003BC76C /* LaunchScreen.xib in Resources */,
 				F22C443E1C2CD99F0095BF72 /* ZYZKindListCell.xib in Resources */,
 				F22C44141C2CD9280095BF72 /* ZYZMyCollectionCell.xib in Resources */,
-				F2893CB61C1BD7F2003BC76C /* Images.xcassets in Resources */,
 				F22C442A1C2CD97D0095BF72 /* ZYZTopDetailFirstCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -792,10 +798,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
 				GCC_PREFIX_HEADER = "./美食菜谱/ZYZPrefixHeader.pch";
 				INFOPLIST_FILE = "美食菜谱/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jarvan.footMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71a29e73-8f49-4fcb-86f3-bd21634339a2";
 			};
 			name = Debug;
 		};
@@ -803,10 +814,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
 				GCC_PREFIX_HEADER = "./美食菜谱/ZYZPrefixHeader.pch";
 				INFOPLIST_FILE = "美食菜谱/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jarvan.footMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71a29e73-8f49-4fcb-86f3-bd21634339a2";
 			};
 			name = Release;
 		};
@@ -814,6 +830,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -825,6 +843,7 @@
 				INFOPLIST_FILE = "美食菜谱Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美食菜谱.app/美食菜谱";
 			};
 			name = Debug;
@@ -833,6 +852,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -840,6 +861,7 @@
 				INFOPLIST_FILE = "美食菜谱Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美食菜谱.app/美食菜谱";
 			};
 			name = Release;

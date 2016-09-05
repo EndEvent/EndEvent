@@ -42,7 +42,6 @@
     
     self.window.rootViewController = tbc;
     
-    
     [self.window makeKeyAndVisible];
     return YES;
 }

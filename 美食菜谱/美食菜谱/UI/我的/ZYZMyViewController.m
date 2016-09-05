@@ -27,15 +27,12 @@
 #pragma mark - 表格视图代理方法
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
 //    return 4;
-    return 3;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
         return 1;
-    }
-    else if (section == 1){
-        return 2;
     }
     else{
         return 1;
@@ -49,9 +46,6 @@
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
     if (section == 0) {
         return @"我的设置";
-    }
-    else if (section == 1){
-        return @"关于我们";
     }
     else{
         return @"清除缓存";
@@ -71,17 +65,7 @@
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             cell.imageView.image = [UIImage imageNamed:@"ic_personal_wallet"];
         }
-    }else if (indexPath.section == 1){//第二组
-        if (indexPath.row == 0) {
-            cell.textLabel.text = @"关于作者";
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-            cell.imageView.image = [UIImage imageNamed:@"set_ico_date"];
-        }else{
-            cell.textLabel.text = @"联系方式";
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-            cell.imageView.image = [UIImage imageNamed:@"ic_wuliu_tel"];
-        }
-    }else if (indexPath.section == 2){//第三组
+    }else if (indexPath.section == 1){//第三组
         cell.textLabel.text = @"清除缓存";
         cell.imageView.image = [UIImage imageNamed:@"set_ico_clear"];
     }
@@ -96,7 +80,7 @@
         [self.navigationController pushViewController:vc animated:YES];
     }
     
-    else if (indexPath.section == 2){   // 清除缓存
+    else if (indexPath.section == 1){   // 清除缓存
         // 获取缓存大小
         CGFloat size = [[SDImageCache sharedImageCache] getSize];
         CGFloat fileSize = size/1024.0/1024.0;

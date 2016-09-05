@@ -51,9 +51,10 @@
 #pragma mark 网页加载失败时调用,这里点击那个网页收藏按钮也会调用来这里，所以做了一个提示框
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
     
+    /** 版本1.3，将webView中的收藏按钮去除
     UIAlertView *alerView = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"如您要收藏，请点击右上角收藏按钮哦" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"嗯嗯!", nil];
-    
     [alerView show];
+     */
 }
 
 #pragma mark - 导航栏设置
@@ -62,12 +63,12 @@
     
     
     // 分享按钮
-    UIButton *rightbutton = [UIButton buttonWithType:UIButtonTypeCustom];
-    rightbutton.frame = CGRectMake(0, 0, 40, 40);
-    [rightbutton setImage:[UIImage imageNamed:@"sharebutton.png"] forState:UIControlStateNormal];
-    [rightbutton addTarget:self action:@selector(rightButtonClick) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *item1 = [[UIBarButtonItem alloc] initWithCustomView:rightbutton];
-    
+//    UIButton *rightbutton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    rightbutton.frame = CGRectMake(0, 0, 40, 40);
+//    [rightbutton setImage:[UIImage imageNamed:@"sharebutton.png"] forState:UIControlStateNormal];
+//    [rightbutton addTarget:self action:@selector(rightButtonClick) forControlEvents:UIControlEventTouchUpInside];
+//    UIBarButtonItem *item1 = [[UIBarButtonItem alloc] initWithCustomView:rightbutton];
+
     
     UIButton *collectionButton = [UIButton buttonWithType:UIButtonTypeCustom];
     collectionButton.frame = CGRectMake(0, 0, 40, 40);
@@ -76,7 +77,8 @@
     [collectionButton addTarget:self action:@selector(collectionButtonClick) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *item2 = [[UIBarButtonItem alloc] initWithCustomView:collectionButton];
     
-    self.navigationItem.rightBarButtonItems = @[item1,item2];
+//    self.navigationItem.rightBarButtonItems = @[item2];
+    self.navigationItem.rightBarButtonItem = item2;
     
     
     
