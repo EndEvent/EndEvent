@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F22C43FF1C2CD6280095BF72 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F22C43FE1C2CD6280095BF72 /* Icon.png */; };
+		F21989791D7E4EF800202179 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21989781D7E4EF800202179 /* Images.xcassets */; };
+		F219897C1D7E541400202179 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F219897A1D7E541400202179 /* Default-568h@2x.png */; };
+		F219897D1D7E541400202179 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = F219897B1D7E541400202179 /* Default-568h.png */; };
+		F21989851D7E597900202179 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F21989811D7E597900202179 /* Icon.png */; };
+		F21989891D7E5A7200202179 /* Icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = F21989861D7E5A7200202179 /* Icon_72.png */; };
+		F219898A1D7E5A7200202179 /* Icon_167.png in Resources */ = {isa = PBXBuildFile; fileRef = F21989871D7E5A7200202179 /* Icon_167.png */; };
+		F219898B1D7E5A7200202179 /* Icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = F21989881D7E5A7200202179 /* Icon_57.png */; };
 		F22C44071C2CD8F20095BF72 /* ZYZCollectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C44041C2CD8F20095BF72 /* ZYZCollectModel.m */; };
 		F22C44081C2CD8F20095BF72 /* ZYZDetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C44061C2CD8F20095BF72 /* ZYZDetailWebViewController.m */; };
 		F22C440B1C2CD9100095BF72 /* ZYZMyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C440A1C2CD9100095BF72 /* ZYZMyTabBarController.m */; };
@@ -34,7 +40,6 @@
 		F22C444B1C2CD9C10095BF72 /* ZYZRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22C44451C2CD9C10095BF72 /* ZYZRecommendCell.xib */; };
 		F22C444C1C2CD9C10095BF72 /* ZYZRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C44471C2CD9C10095BF72 /* ZYZRecommendModel.m */; };
 		F22C444D1C2CD9C10095BF72 /* ZYZRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C44491C2CD9C10095BF72 /* ZYZRecommendViewController.m */; };
-		F22D1C741D7D878B0039DAF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22D1C731D7D878B0039DAF8 /* Images.xcassets */; };
 		F22D1C761D7D87E50039DAF8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F22D1C751D7D87E50039DAF8 /* libsqlite3.tbd */; };
 		F25606651C1C520F006680FE /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F25606451C1C520F006680FE /* MKAnnotationView+WebCache.m */; };
 		F25606661C1C520F006680FE /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F25606471C1C520F006680FE /* NSData+ImageContentType.m */; };
@@ -87,7 +92,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F22C43FE1C2CD6280095BF72 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		F21989781D7E4EF800202179 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F219897A1D7E541400202179 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		F219897B1D7E541400202179 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h.png"; path = "../Default-568h.png"; sourceTree = "<group>"; };
+		F21989811D7E597900202179 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Images.xcassets/Icon.imageset/Icon.png; sourceTree = "<group>"; };
+		F21989861D7E5A7200202179 /* Icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_72.png; path = ../Icon_72.png; sourceTree = "<group>"; };
+		F21989871D7E5A7200202179 /* Icon_167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_167.png; path = ../Icon_167.png; sourceTree = "<group>"; };
+		F21989881D7E5A7200202179 /* Icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_57.png; path = ../Icon_57.png; sourceTree = "<group>"; };
 		F22C44031C2CD8F20095BF72 /* ZYZCollectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZCollectModel.h; sourceTree = "<group>"; };
 		F22C44041C2CD8F20095BF72 /* ZYZCollectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZCollectModel.m; sourceTree = "<group>"; };
 		F22C44051C2CD8F20095BF72 /* ZYZDetailWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZDetailWebViewController.h; sourceTree = "<group>"; };
@@ -134,7 +145,6 @@
 		F22C44471C2CD9C10095BF72 /* ZYZRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZRecommendModel.m; sourceTree = "<group>"; };
 		F22C44481C2CD9C10095BF72 /* ZYZRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZRecommendViewController.h; sourceTree = "<group>"; };
 		F22C44491C2CD9C10095BF72 /* ZYZRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZRecommendViewController.m; sourceTree = "<group>"; };
-		F22D1C731D7D878B0039DAF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F22D1C751D7D87E50039DAF8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F25606441C1C520F006680FE /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		F25606451C1C520F006680FE /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
@@ -333,7 +343,12 @@
 		F22C444E1C2CDA0F0095BF72 /* 图片资源 */ = {
 			isa = PBXGroup;
 			children = (
-				F22C43FE1C2CD6280095BF72 /* Icon.png */,
+				F21989811D7E597900202179 /* Icon.png */,
+				F21989861D7E5A7200202179 /* Icon_72.png */,
+				F21989871D7E5A7200202179 /* Icon_167.png */,
+				F21989881D7E5A7200202179 /* Icon_57.png */,
+				F219897A1D7E541400202179 /* Default-568h@2x.png */,
+				F219897B1D7E541400202179 /* Default-568h.png */,
 			);
 			path = "图片资源";
 			sourceTree = "<group>";
@@ -480,7 +495,7 @@
 				F25606421C1C5200006680FE /* 第三方库 */,
 				F2893CB21C1BD7F2003BC76C /* AppDelegate.h */,
 				F2893CB31C1BD7F2003BC76C /* AppDelegate.m */,
-				F22D1C731D7D878B0039DAF8 /* Images.xcassets */,
+				F21989781D7E4EF800202179 /* Images.xcassets */,
 				F25606991C1D0030006680FE /* ZYZLog.h */,
 				F2893CB71C1BD7F2003BC76C /* LaunchScreen.xib */,
 				F2893CAE1C1BD7F2003BC76C /* Supporting Files */,
@@ -565,7 +580,7 @@
 				TargetAttributes = {
 					F2893CAA1C1BD7F2003BC76C = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = C6Z4F7FQ7V;
+						DevelopmentTeam = B472TF27VE;
 					};
 					F2893CBD1C1BD7F2003BC76C = {
 						CreatedOnToolsVersion = 6.3;
@@ -598,9 +613,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22C43FF1C2CD6280095BF72 /* Icon.png in Resources */,
-				F22D1C741D7D878B0039DAF8 /* Images.xcassets in Resources */,
+				F21989891D7E5A7200202179 /* Icon_72.png in Resources */,
+				F219897C1D7E541400202179 /* Default-568h@2x.png in Resources */,
+				F21989791D7E4EF800202179 /* Images.xcassets in Resources */,
+				F219898B1D7E5A7200202179 /* Icon_57.png in Resources */,
+				F219898A1D7E5A7200202179 /* Icon_167.png in Resources */,
+				F21989851D7E597900202179 /* Icon.png in Resources */,
 				F25606911C1C53D0006680FE /* MJRefresh.bundle in Resources */,
+				F219897D1D7E541400202179 /* Default-568h.png in Resources */,
 				F22C444B1C2CD9C10095BF72 /* ZYZRecommendCell.xib in Resources */,
 				F22C442D1C2CD97D0095BF72 /* ZYZTopDetailSecondCell.xib in Resources */,
 				F22C44311C2CD97D0095BF72 /* ZYZTopTableViewCell.xib in Resources */,
@@ -798,15 +818,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "./美食菜谱/ZYZPrefixHeader.pch";
 				INFOPLIST_FILE = "美食菜谱/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jarvan.footMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "71a29e73-8f49-4fcb-86f3-bd21634339a2";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -814,15 +834,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: huang jiahong (C6Z4F7FQ7V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "./美食菜谱/ZYZPrefixHeader.pch";
 				INFOPLIST_FILE = "美食菜谱/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jarvan.footMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "71a29e73-8f49-4fcb-86f3-bd21634339a2";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
